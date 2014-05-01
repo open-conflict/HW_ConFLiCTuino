@@ -30,10 +30,10 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -80,7 +80,7 @@
 </layers>
 <board>
 <plain>
-<text x="47.3075" y="40.64" size="2.1844" layer="25" ratio="17">ConFLiCTuino</text>
+<text x="35.2425" y="40.9575" size="2.54" layer="25" ratio="20">ConFLiCTuino</text>
 <text x="27.6225" y="38.4175" size="1.9304" layer="25" ratio="10" rot="R180" align="center-right">Rev:</text>
 <wire x1="0" y1="53.34" x2="86.36" y2="53.34" width="0.0254" layer="20"/>
 <wire x1="86.36" y1="53.34" x2="86.36" y2="0" width="0.0254" layer="20"/>
@@ -154,16 +154,16 @@
 <text x="3.4925" y="47.625" size="1.9304" layer="25" font="vector" ratio="10" align="center">A1</text>
 <text x="3.4925" y="25.0825" size="1.9304" layer="25" font="vector" ratio="10" align="center">A2</text>
 <text x="47.9425" y="23.8125" size="1.016" layer="25" font="vector" ratio="10" rot="R180" align="center">1</text>
-<text x="27.6225" y="35.8775" size="1.9304" layer="25" font="vector" ratio="10" rot="R180" align="center-right">0.5</text>
+<text x="27.6225" y="35.8775" size="1.9304" layer="25" font="vector" ratio="10" rot="R180" align="center-right">0.4</text>
 <wire x1="27.305" y1="39.6875" x2="33.9725" y2="39.6875" width="0.2032" layer="25"/>
 <wire x1="33.9725" y1="39.6875" x2="33.9725" y2="34.6075" width="0.2032" layer="25"/>
 <wire x1="33.9725" y1="34.6075" x2="27.305" y2="34.6075" width="0.2032" layer="25"/>
 <wire x1="27.305" y1="34.6075" x2="27.305" y2="39.6875" width="0.2032" layer="25"/>
-<text x="15.39875" y="5.23875" size="1.9304" layer="26" font="vector" ratio="10" rot="MR90">open-conflict.de</text>
-<text x="18.57375" y="5.23875" size="1.9304" layer="26" font="vector" ratio="10" rot="MR90">shield for Arduino Mega.</text>
-<text x="73.9775" y="47.3075" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">Controller For Liquid Cooled Technique</text>
-<text x="21.74875" y="5.23875" size="1.9304" layer="26" font="vector" ratio="10" rot="MR90">ConFLiCTuino is a</text>
-<text x="12.22375" y="5.23875" size="1.9304" layer="26" font="vector" ratio="10" rot="MR90">Layout by R. Steigemann</text>
+<text x="66.675" y="34.925" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">open-conflict.de</text>
+<text x="66.675" y="38.1" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">shield for Arduino Mega.</text>
+<text x="73.025" y="46.0375" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">Controller For Liquid Cooled Technique</text>
+<text x="66.675" y="41.275" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">ConFLiCTuino is a</text>
+<text x="66.675" y="31.75" size="1.9304" layer="26" font="vector" ratio="10" rot="MR0">Layout by R. Steigemann</text>
 <text x="77.1525" y="17.78" size="1.016" layer="26" font="vector" ratio="10" rot="MR0" align="center-right">GND</text>
 <wire x1="59.3725" y1="14.2875" x2="63.1825" y2="14.2875" width="0.2032" layer="21"/>
 <wire x1="63.1825" y1="14.2875" x2="63.1825" y2="12.7" width="0.2032" layer="21"/>
@@ -176,9 +176,6 @@
 <wire x1="63.1825" y1="12.7" x2="65.7225" y2="12.7" width="0.2032" layer="21"/>
 <text x="60.0075" y="13.0175" size="1.016" layer="21" ratio="10">12V</text>
 <text x="63.1825" y="11.43" size="1.016" layer="21" ratio="10">5V</text>
-<text x="44.45" y="42.70375" size="1.016" layer="26" font="vector" ratio="10" rot="MR90" align="center-right">V+</text>
-<text x="39.37" y="42.70375" size="1.016" layer="26" font="vector" ratio="10" rot="MR90" align="center-right">GND</text>
-<text x="41.91" y="42.70375" size="1.016" layer="26" font="vector" ratio="10" rot="MR90" align="center-right">DATA</text>
 </plain>
 <libraries>
 <library name="arduino">
@@ -1778,7 +1775,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="68.58" y="36.195" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="Q1" library="transistor-fet" package="DPACK" value="IRLR024N" x="53.0225" y="33.655" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.3875" y="38.735" size="1.016" layer="25" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="55.5625" y="27.94" size="1.016" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="VALUE" x="47.9425" y="36.195" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q5" library="transistor-fet" package="DPACK" value="IRLR024N" x="45.72" y="33.655" smashed="yes" rot="R180">
@@ -1866,11 +1863,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="64.14" y="48.3075" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C3" library="rcl" package="C0805K" value="100n" x="50.165" y="47.3075" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.49625" y="48.2125" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="48.3375" y="47.41875" size="1.016" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="48.265" y="48.3075" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="rcl" package="C0805K" value="100n" x="52.705" y="47.3075" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.25875" y="50.27625" size="1.016" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="54.6875" y="47.41875" size="1.016" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="50.805" y="48.3075" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="EXT" library="con-ml" package="ML26" value="" x="74.93" y="22.86" smashed="yes" rot="R90">
@@ -1958,18 +1955,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.4625" y="45.72" size="1.016" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="19.3675" y="42.2275" size="1.27" layer="27"/>
 </element>
-<element name="1WIRE" library="con-molex" package="6410-03" value="22-27-2031-03" x="41.91" y="44.60875" smashed="yes" rot="R180">
-<attribute name="NAME" x="36.6126" y="44.89935" size="1.9304" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
-<attribute name="VALUE" x="45.6931" y="49.20765" size="0.8128" layer="27" ratio="10" rot="R180"/>
-</element>
-<element name="C7" library="rcl" package="C0805K" value="100n" x="46.99" y="45.24375" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.90875" y="48.2125" size="1.016" layer="25" font="vector" ratio="10" rot="R90" align="center"/>
-<attribute name="VALUE" x="48.89" y="44.24375" size="1.016" layer="27" rot="R90"/>
-</element>
-<element name="R1" library="rcl" package="M0805" value="4k7" x="40.64" y="48.5775" smashed="yes">
-<attribute name="NAME" x="43.815" y="48.5775" size="1.016" layer="25" ratio="10" align="center"/>
-<attribute name="VALUE" x="39.37" y="46.0375" size="1.27" layer="27"/>
-</element>
+<element name="1WIRE" library="con-molex" package="6410-03" value="22-27-2031-03" x="41.91" y="44.60875" rot="R180"/>
+<element name="C7" library="rcl" package="C0805K" value="100n" x="46.99" y="45.24375" rot="R90"/>
+<element name="R1" library="rcl" package="M0805" value="4k7" x="40.64" y="48.5775"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2223,12 +2211,6 @@ design rules under a new name.</description>
 <via x="7.9375" y="37.7825" extent="1-16" drill="0.4"/>
 <via x="7.9375" y="40.3225" extent="1-16" drill="0.4"/>
 <via x="7.9375" y="42.8625" extent="1-16" drill="0.4"/>
-<polygon width="0.2032" layer="16" isolate="0.3048" orphans="yes" thermals="no" rank="2">
-<vertex x="5.3975" y="53.34"/>
-<vertex x="5.3975" y="29.5275"/>
-<vertex x="34.925" y="29.5275"/>
-<vertex x="34.925" y="53.34"/>
-</polygon>
 </signal>
 <signal name="N$21">
 <contactref element="R15" pad="1"/>
@@ -3003,6 +2985,14 @@ design rules under a new name.</description>
 <wire x1="73.66" y1="45.72" x2="69.85" y2="49.53" width="0.3048" layer="16"/>
 <wire x1="69.85" y1="49.53" x2="64.77" y2="49.53" width="0.3048" layer="16"/>
 <wire x1="64.77" y1="49.53" x2="63.5" y2="50.8" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$42">
+<polygon width="0.2032" layer="16" isolate="0.3048" orphans="yes" thermals="no" rank="2">
+<vertex x="5.3975" y="53.34"/>
+<vertex x="5.3975" y="29.5275"/>
+<vertex x="34.925" y="29.5275"/>
+<vertex x="34.925" y="53.34"/>
+</polygon>
 </signal>
 <signal name="N$44">
 <contactref element="C6" pad="2"/>

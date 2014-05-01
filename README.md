@@ -2,6 +2,12 @@ HW_ConFLiCTuino
 ===============
 
 <br>
+<b>ConFLiCTuino 0.5: </b><br>
+ <br>
+ - add 1-wire header  <br>
+ - firmware compatible to 0.2, except of 1-Wire functionallity <br>
+     <br>
+ <br>
 <b>ConFLiCTuino 0.4: </b><br>
  <br>
  - rework complete Layout for smaller size  <br>

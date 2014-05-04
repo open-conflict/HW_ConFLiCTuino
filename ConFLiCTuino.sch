@@ -10294,7 +10294,7 @@ Source: RS Component / Phycomp</description>
 <instance part="R16" gate="G$1" x="335.28" y="121.92" rot="R90"/>
 <instance part="C53" gate="G$1" x="325.12" y="165.1" rot="R90"/>
 <instance part="R27" gate="G$1" x="294.64" y="157.48"/>
-<instance part="C54" gate="G$1" x="302.26" y="137.16"/>
+<instance part="C54" gate="G$1" x="302.26" y="134.62" rot="R180"/>
 <instance part="A1-OUT2" gate="-1" x="363.22" y="193.04" smashed="yes">
 <attribute name="NAME" x="365.76" y="192.278" size="1.524" layer="95"/>
 </instance>
@@ -10436,17 +10436,50 @@ Source: RS Component / Phycomp</description>
 <instance part="P+21" gate="1" x="213.36" y="243.84" rot="R270"/>
 <instance part="A1-OUT2" gate="-3" x="254" y="233.68"/>
 <instance part="A2-OUT2" gate="-3" x="254" y="198.12"/>
-<instance part="RN3" gate="A" x="246.38" y="241.3" rot="R270"/>
-<instance part="RN3" gate="B" x="246.38" y="205.74" rot="R270"/>
-<instance part="RN3" gate="C" x="246.38" y="170.18" rot="R270"/>
-<instance part="RN3" gate="D" x="246.38" y="134.62" rot="R270"/>
-<instance part="RN2" gate="A" x="238.76" y="127"/>
-<instance part="RN2" gate="B" x="238.76" y="162.56"/>
-<instance part="RN2" gate="C" x="238.76" y="198.12"/>
-<instance part="RN2" gate="D" x="238.76" y="233.68"/>
-<instance part="RN5" gate="B" x="302.26" y="38.1"/>
-<instance part="RN5" gate="C" x="302.26" y="53.34"/>
-<instance part="RN5" gate="D" x="302.26" y="68.58"/>
+<instance part="RN3" gate="A" x="246.38" y="241.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="248.92" y="240.792" size="1.778" layer="96"/>
+<attribute name="NAME" x="248.92" y="238.252" size="1.778" layer="95"/>
+</instance>
+<instance part="RN3" gate="B" x="246.38" y="205.74" smashed="yes" rot="R270">
+<attribute name="VALUE" x="248.92" y="205.232" size="1.778" layer="96"/>
+<attribute name="NAME" x="248.92" y="202.692" size="1.778" layer="95"/>
+</instance>
+<instance part="RN3" gate="C" x="246.38" y="170.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="248.92" y="169.672" size="1.778" layer="96"/>
+<attribute name="NAME" x="248.92" y="167.132" size="1.778" layer="95"/>
+</instance>
+<instance part="RN3" gate="D" x="246.38" y="134.62" smashed="yes" rot="R270">
+<attribute name="VALUE" x="248.92" y="134.112" size="1.778" layer="96"/>
+<attribute name="NAME" x="248.92" y="131.572" size="1.778" layer="95"/>
+</instance>
+<instance part="RN2" gate="A" x="238.76" y="127" smashed="yes">
+<attribute name="VALUE" x="238.76" y="123.952" size="1.778" layer="96"/>
+<attribute name="NAME" x="238.76" y="121.412" size="1.778" layer="95"/>
+</instance>
+<instance part="RN2" gate="B" x="238.76" y="162.56" smashed="yes">
+<attribute name="VALUE" x="238.76" y="159.512" size="1.778" layer="96"/>
+<attribute name="NAME" x="238.76" y="156.972" size="1.778" layer="95"/>
+</instance>
+<instance part="RN2" gate="C" x="238.76" y="198.12" smashed="yes">
+<attribute name="VALUE" x="238.76" y="195.072" size="1.778" layer="96"/>
+<attribute name="NAME" x="238.76" y="192.532" size="1.778" layer="95"/>
+</instance>
+<instance part="RN2" gate="D" x="238.76" y="233.68" smashed="yes">
+<attribute name="VALUE" x="238.76" y="230.632" size="1.778" layer="96"/>
+<attribute name="NAME" x="238.76" y="228.092" size="1.778" layer="95"/>
+</instance>
+<instance part="RN5" gate="B" x="302.26" y="38.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="302.26" y="35.052" size="1.778" layer="96"/>
+<attribute name="NAME" x="302.26" y="32.512" size="1.778" layer="95"/>
+</instance>
+<instance part="RN5" gate="C" x="302.26" y="53.34" smashed="yes" rot="R180">
+<attribute name="VALUE" x="302.26" y="50.292" size="1.778" layer="96"/>
+<attribute name="NAME" x="302.26" y="47.752" size="1.778" layer="95"/>
+</instance>
+<instance part="RN5" gate="D" x="302.26" y="68.58" smashed="yes" rot="R180">
+<attribute name="VALUE" x="302.26" y="65.532" size="1.778" layer="96"/>
+<attribute name="NAME" x="302.26" y="62.992" size="1.778" layer="95"/>
+</instance>
 <instance part="IC1" gate="G$1" x="55.88" y="182.88" rot="MR0"/>
 <instance part="IC1" gate="G$2" x="78.74" y="205.74" rot="R270"/>
 <instance part="IC1" gate="G$3" x="147.32" y="231.14"/>
@@ -10503,21 +10536,21 @@ Source: RS Component / Phycomp</description>
 </net>
 <net name="N$82" class="0">
 <segment>
-<wire x1="297.18" y1="38.1" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="38.1" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
 <pinref part="RN5" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="N$83" class="0">
 <segment>
-<wire x1="297.18" y1="53.34" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="53.34" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="G"/>
 <pinref part="RN5" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="N$84" class="0">
 <segment>
-<wire x1="297.18" y1="68.58" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="68.58" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="RN5" gate="D" pin="1"/>
 </segment>
@@ -10567,7 +10600,7 @@ Source: RS Component / Phycomp</description>
 </net>
 <net name="LED_1" class="0">
 <segment>
-<wire x1="307.34" y1="68.58" x2="294.64" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="68.58" x2="294.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="294.64" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="RN5" gate="D" pin="2"/>
 </segment>
@@ -10579,7 +10612,7 @@ Source: RS Component / Phycomp</description>
 </net>
 <net name="LED_2" class="0">
 <segment>
-<wire x1="294.64" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="53.34" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
 <label x="294.64" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="RN5" gate="C" pin="2"/>
 </segment>
@@ -10702,7 +10735,7 @@ Source: RS Component / Phycomp</description>
 <segment>
 <pinref part="C54" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="157.48" x2="302.26" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="157.48" x2="302.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="157.48" x2="302.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="299.72" y1="157.48" x2="302.26" y2="157.48" width="0.1524" layer="91"/>
 <junction x="302.26" y="157.48"/>
@@ -10875,7 +10908,7 @@ Source: RS Component / Phycomp</description>
 <wire x1="335.28" y1="114.3" x2="342.9" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C54" gate="G$1" pin="1"/>
 <wire x1="335.28" y1="114.3" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="114.3" x2="302.26" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="114.3" x2="302.26" y2="132.08" width="0.1524" layer="91"/>
 <junction x="335.28" y="114.3"/>
 <wire x1="342.9" y1="114.3" x2="353.06" y2="114.3" width="0.1524" layer="91"/>
 <junction x="342.9" y="114.3"/>
@@ -11125,7 +11158,7 @@ Source: RS Component / Phycomp</description>
 </net>
 <net name="LED_3" class="0">
 <segment>
-<wire x1="307.34" y1="38.1" x2="294.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="38.1" x2="294.64" y2="38.1" width="0.1524" layer="91"/>
 <label x="294.64" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="RN5" gate="B" pin="2"/>
 </segment>

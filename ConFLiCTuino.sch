@@ -11684,15 +11684,20 @@ Source: RS Component / Phycomp</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,45.72,241.3,IC1,+VIN,+12V,,,"/>
 <approved hash="104,1,368.3,177.8,IC4P,V+,+12V,,,"/>
 <approved hash="104,1,368.3,162.56,IC4P,V-,GND,,,"/>
-<approved hash="106,1,53.34,241.3,+3V3,,,,,"/>
-<approved hash="106,1,53.34,246.38,+3V3,,,,,"/>
-<approved hash="115,1,58.42,175.26,IC1,,,,,"/>
-<approved hash="115,1,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="115,1,235.983,74.7988,JP3,,,,,"/>
-<approved hash="115,1,356.828,53.4712,LED,,,,,"/>
+<approved hash="104,1,88.9,205.74,IC1G$2,IOREF,V+,,,"/>
+<approved hash="104,1,147.32,241.3,IC1G$3,+VIN,+12V,,,"/>
+<approved hash="104,1,187.96,241.3,IC1G$5,+5V,S$2,,,"/>
+<approved hash="104,1,187.96,220.98,IC1G$5,GND,N$44,,,"/>
+<approved hash="106,1,157.48,241.3,+3V3,,,,,"/>
+<approved hash="106,1,157.48,243.84,+3V3,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="113,1,235.983,74.7988,JP3,,,,,"/>
+<approved hash="113,1,15.9741,223.52,EXT,,,,,"/>
+<approved hash="113,1,186.648,143.641,TEMP,,,,,"/>
+<approved hash="113,1,356.828,53.4712,LED,,,,,"/>
+<approved hash="113,1,319.794,97.7591,PWR,,,,,"/>
 </errors>
 </schematic>
 </drawing>

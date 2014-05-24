@@ -2,6 +2,12 @@ HW_ConFLiCTuino
 ===============
 
 <br>
+<b>ConFLiCTuino 0.6: </b><br>
+ <br>
+ - changed PWM1 and PWM2 Header to the correct molex footprint. <br>
+ - no electrical changes to 0.5 <br>
+     <br>
+ <br>
 <b>ConFLiCTuino 0.5: </b><br>
  <br>
  - add 1-wire header  <br>
